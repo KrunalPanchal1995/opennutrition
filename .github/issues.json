@@ -1,0 +1,79 @@
+[
+  {
+    "title": "Fix typos and unclear sentences in the Session 1 notes",
+    "labels": [
+      "good first issue",
+      "beginner",
+      "documentation"
+    ],
+    "body": "## Problem\nThe Session 1 notes may contain typos or sentences that a first-year student finds confusing.\n\n## Context\nBeginners judge the whole repo by Session 1.\n\n## Expected outcome\nA clearer `sessions/session-01/README.md` and `lesson.py` comments.\n\n## Relevant files\n`sessions/session-01/README.md`, `sessions/session-01/lesson.py`\n\n## Acceptance criteria\n- [ ] At least three improvements\n- [ ] `python start.py test` still passes\n\n## Difficulty\nbeginner"
+  },
+  {
+    "title": "Add more foods and activities to the Session 1 tables",
+    "labels": [
+      "good first issue",
+      "beginner"
+    ],
+    "body": "## Problem\nThe tables have only six foods and six activities, and local foods are missing.\n\n## Context\nStudents relate better to familiar foods. Values must be rounded textbook values labelled approximate, with a source.\n\n## Expected outcome\nAt least five more foods and three more activities with sources in a comment.\n\n## Relevant files\n`sessions/session-01/lesson.py`, `sessions/session-01/checkpoint.py`\n\n## Acceptance criteria\n- [ ] Each value has a source and is labelled approximate\n- [ ] Checkpoint still prints PASS\n\n## Difficulty\nbeginner"
+  },
+  {
+    "title": "Add a Session 4: fit the model to noisy weigh-ins",
+    "labels": [
+      "intermediate",
+      "feature"
+    ],
+    "body": "## Problem\nThe first roadmap milestone does not exist yet.\n\n## Context\nSee `promo/roadmap.md`. Session 3 shows uncertainty but cannot reduce it.\n\n## Expected outcome\n`sessions/session-04/` with README (sections A to F), lesson, checkpoint, exercises and app in the same style as Sessions 1 to 3, with the safety note that this is general education.\n\n## Relevant files\n`promo/roadmap.md`, `sessions/session-03/lesson.py`\n\n## Acceptance criteria\n- [ ] Checkpoint prints PASS and the roadmap checkpoint is met\n- [ ] Added to the tests\n\n## Difficulty\nintermediate"
+  },
+  {
+    "title": "Add a sensitivity ranking to Session 3",
+    "labels": [
+      "intermediate",
+      "feature"
+    ],
+    "body": "## Problem\nSession 3 reports only the combined spread of the 12-week result.\n\n## Context\nStudents ask which error matters most: food log, BMR estimate or portion size.\n\n## Expected outcome\nA function that ranks the error sources by their share of the output variance, with a figure.\n\n## Relevant files\n`sessions/session-03/lesson.py`, `promo/roadmap.md`\n\n## Acceptance criteria\n- [ ] Shares add up to between 0.9 and 1.0\n- [ ] Checkpoint added\n\n## Difficulty\nintermediate"
+  },
+  {
+    "title": "Reproduce the Target: animated mass trajectory with an uncertainty band",
+    "labels": [
+      "advanced",
+      "feature"
+    ],
+    "body": "## Problem\nThe Target animation shows energy bars, a mass curve approaching its steady state and an uncertainty band; there is no public implementation.\n\n## Context\nThe code behind the Target is private on purpose. The roadmap gives the path.\n\n## Expected outcome\nYour own implementation, written from the roadmap, plus an animation like the Target.\n\n## Relevant files\n`promo/roadmap.md`\n\n## Acceptance criteria\n- [ ] GIF of at most 3 MB with at most 60 frames\n- [ ] Short write-up of your method and its limits\n\n## Difficulty\nadvanced"
+  },
+  {
+    "title": "Translate the Session 1 notes into Hindi",
+    "labels": [
+      "good first issue",
+      "beginner",
+      "documentation"
+    ],
+    "body": "## Problem\nStudents who prefer Hindi cannot read Session 1 comfortably.\n\n## Context\nThis project teaches first- and second-year students across India; translations widen who can join.\n\n## Expected outcome\n`sessions/session-01/README.hi.md` with a faithful Hindi translation of sections A to F, linked from the main README.\n\n## Relevant files\n`sessions/session-01/README.md`\n\n## Acceptance criteria\n- [ ] All sections translated\n- [ ] Equations, code blocks and file names unchanged\n- [ ] Link added to the main README\n\n## Difficulty\nbeginner"
+  },
+  {
+    "title": "Translate the Session 1 notes into Telugu",
+    "labels": [
+      "good first issue",
+      "beginner",
+      "documentation"
+    ],
+    "body": "## Problem\nStudents who prefer Telugu cannot read Session 1 comfortably.\n\n## Context\nThis project teaches first- and second-year students across India; translations widen who can join.\n\n## Expected outcome\n`sessions/session-01/README.te.md` with a faithful Telugu translation of sections A to F, linked from the main README.\n\n## Relevant files\n`sessions/session-01/README.md`\n\n## Acceptance criteria\n- [ ] All sections translated\n- [ ] Equations, code blocks and file names unchanged\n- [ ] Link added to the main README\n\n## Difficulty\nbeginner"
+  },
+  {
+    "title": "Translate the Session 1 notes into Tamil",
+    "labels": [
+      "good first issue",
+      "beginner",
+      "documentation"
+    ],
+    "body": "## Problem\nStudents who prefer Tamil cannot read Session 1 comfortably.\n\n## Context\nThis project teaches first- and second-year students across India; translations widen who can join.\n\n## Expected outcome\n`sessions/session-01/README.ta.md` with a faithful Tamil translation of sections A to F, linked from the main README.\n\n## Relevant files\n`sessions/session-01/README.md`\n\n## Acceptance criteria\n- [ ] All sections translated\n- [ ] Equations, code blocks and file names unchanged\n- [ ] Link added to the main README\n\n## Difficulty\nbeginner"
+  },
+  {
+    "title": "Translate the Session 1 notes into Malayalam",
+    "labels": [
+      "good first issue",
+      "beginner",
+      "documentation"
+    ],
+    "body": "## Problem\nStudents who prefer Malayalam cannot read Session 1 comfortably.\n\n## Context\nThis project teaches first- and second-year students across India; translations widen who can join.\n\n## Expected outcome\n`sessions/session-01/README.ma.md` with a faithful Malayalam translation of sections A to F, linked from the main README.\n\n## Relevant files\n`sessions/session-01/README.md`\n\n## Acceptance criteria\n- [ ] All sections translated\n- [ ] Equations, code blocks and file names unchanged\n- [ ] Link added to the main README\n\n## Difficulty\nbeginner"
+  }
+]
